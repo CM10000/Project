@@ -1,0 +1,14 @@
+name: Greetings
+server:
+  port: 3333
+
+welcome: Ram Welcomes You
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: xe
+    password: govind
+
+
